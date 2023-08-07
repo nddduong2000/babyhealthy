@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "assets/customCss/button_css";
+
+body {
+  background-color: #fffbec;
+}
+
+.page {
+  padding: 0 68px;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+}
