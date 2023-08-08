@@ -8,6 +8,9 @@ import { IntroduceComponent } from './introduce/introduce.component';
 import { ArticleComponent } from './article/article.component';
 import { ExploreComponent } from './explore/explore.component';
 import { FooterComponent } from './footer/footer.component';
+import { LayoutComponent } from './layout/layout.component';
+import {SharedModule} from "../../module/shared.module";
+import {DashboardComponent} from "./dashboard.component";
 
 
 @NgModule({
@@ -18,6 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     ArticleComponent,
     ExploreComponent,
     FooterComponent,
+    LayoutComponent,
+    DashboardComponent
   ],
   exports: [
     HeaderDashboardComponent,
@@ -26,10 +31,13 @@ import { FooterComponent } from './footer/footer.component';
     ArticleComponent,
     ExploreComponent,
     FooterComponent,
+    LayoutComponent,
+    DashboardComponent
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    SharedModule
   ]
 })
 export class DashboardModule { }

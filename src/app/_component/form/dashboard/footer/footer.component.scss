@@ -3,30 +3,30 @@
     border: 1px solid var(--secondary-color, #FFC8D2);
     padding: 12px 24px;
     margin-right: 10px;
-}
-.name-social {
     color: var(--text-title, #597393);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.08px;
+    cursor: pointer;
+}
+.social-network:hover {
+    border-radius: 125px;
+    border: 1px solid var(--secondary-color, #FFC8D2);
+    background-color: #FFC8D2;
+    color: var(--text-title, #ffffff);
 }
 
 .columm {
     display: grid;
     color: var(--text-body-content, #6B6B6B);
-    /* Body 1/Regular */
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    font-family: FontRegular;
 }
 
 .title-main {
     color: var(--text-title, #597393);
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-family: FontBold;
 }
 
 .line-straight {

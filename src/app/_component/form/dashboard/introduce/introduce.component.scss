@@ -4,6 +4,14 @@
   border-radius: 50px;
   width: 1120px;
 }
+@media only screen and (max-width: 1440px) {
+  .introduce {
+    background-color: #FFEFDD;
+    margin-top: 205px;
+    border-radius: 50px;
+    width: 100%;
+  }
+}
 .title {
   text-align: center;
   padding: 80px 0;
@@ -11,12 +19,8 @@
 .text-title {
   color: #FA6E8C;
   text-align: center;
-  font-family: Bohemian Soul;
+  font-family: FontRegular;
   font-size: 31.299px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 50.861px; /* 162.5% */
-  letter-spacing: 0.078px;
 }
 .content_introduce {
   margin-left: 69px;
@@ -28,19 +32,13 @@
 }
 .title_content {
   color: #000;
-  font-family: SF Pro;
+  font-family: FontBold;
   font-size: 34px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 48px; /* 141.176% */
-  letter-spacing: 0.085px;
 }
 .des_content {
   color: #000;
-  font-family: Inter;
+  font-family: FontRegular;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.08px;
 }

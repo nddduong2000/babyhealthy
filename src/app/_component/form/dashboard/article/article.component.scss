@@ -8,8 +8,8 @@
 .text-title {
     color: #FA6E8C;
     font-size: 41.014px;
-    font-weight: 400;
     line-height: 52px;
+    font-family: FontRegular;
 }
 .img-article {
     width: 100%;
@@ -26,11 +26,8 @@
 }
 .text-content {
     color: #FFF;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35.5px;
-    letter-spacing: -0.28px;
+    font-size: 18px;
+    font-family: FontMedium;
 }
 .circle-grey {
     border-radius: 123px;
@@ -39,4 +36,7 @@
     width: 179px;
     height: 41px;
     margin-top: 33px;
+}
+.content-articles {
+  margin-top: 50px;
 }

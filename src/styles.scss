@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "assets/customCss/button-css";
+@import "assets/customCss/font-text";
 
 body {
   background-color: #fffbec;
@@ -19,8 +20,17 @@ body {
   width: 1440px;
   height: 100%;
 }
+@media only screen and (max-width: 1440px) {
+  .container-page {
+    width: 100%;
+    height: 100%;
+  }
+}
 .page-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
